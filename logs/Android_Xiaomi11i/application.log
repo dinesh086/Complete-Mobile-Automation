@@ -1,0 +1,226 @@
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:16.167 BaseTest:227 - log path: logs\Android_Xiaomi11i
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:16.196 BaseTest:234 - load config.properties
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:16.197 BaseTest:239 - load strings/strings.xml
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:16.206 BaseTest:263 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:26.523 BaseTest:285 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, deviceName=Xiaomi11i, systemPort=10000, udid=gmaybemv9xaaeqpz}, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceModel=21091116I, deviceName=gmaybemv9xaaeqpz, deviceScreenDensity=352, deviceScreenSize=1080x2400, deviceUDID=gmaybemv9xaaeqpz, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.2, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=80, systemPort=10000, takesScreenshot=true, udid=gmaybemv9xaaeqpz, viewportRect={left=0, top=80, width=1080, height=2205}, warnings={}, webStorageEnabled=false}
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:29.047 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:30.050 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:31.757 BaseTest:336 - password is invalidpassword
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:32.366 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:33.416 BaseTest:356 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:35.570 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:36.418 BaseTest:336 - login with invalidusername
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:38.347 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:39.573 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:39.935 BaseTest:356 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:42.074 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:43.260 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:45.157 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:45.873 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:47.518 BaseTest:356 - product page title is - PRODUCTS
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:53.095 ProductTests:51 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:53.996 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:55.695 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:56.279 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:57.900 BaseTest:324 - press SLB tile link
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:59.346 BaseTest:356 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:59.517 BaseTest:356 - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:11:59.661 BaseTest:324 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:01.674 BaseTest:324 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:07.248 ProductTests:51 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:08.061 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:09.383 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:10.001 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:11.502 BaseTest:356 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:11.958 BaseTest:356 - price is - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:12.086 BaseTest:324 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:12:13.970 BaseTest:324 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:34.003 BaseTest:227 - log path: logs\Android_Xiaomi11i
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:34.023 BaseTest:234 - load config.properties
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:34.024 BaseTest:239 - load strings/strings.xml
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:34.034 BaseTest:263 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:43.355 BaseTest:285 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, deviceName=Xiaomi11i, systemPort=10000, udid=gmaybemv9xaaeqpz}, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceModel=21091116I, deviceName=gmaybemv9xaaeqpz, deviceScreenDensity=352, deviceScreenSize=1080x2400, deviceUDID=gmaybemv9xaaeqpz, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.2, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=80, systemPort=10000, takesScreenshot=true, udid=gmaybemv9xaaeqpz, viewportRect={left=0, top=80, width=1080, height=2205}, warnings={}, webStorageEnabled=false}
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:46.042 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:47.045 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:48.769 BaseTest:336 - password is invalidpassword
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:49.858 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:50.649 BaseTest:356 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:52.904 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:53.757 BaseTest:336 - login with invalidusername
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:55.182 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:56.397 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:56.795 BaseTest:356 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i ERROR] 2022-07-11 16:13:56.799 TestListener:32 - java.lang.AssertionError: expected [Username and password do not match any user in this service.] but found [Username and password do not match any user in this service.hjjhuhh]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at com.qa.tests.LoginTests.invalidUserName(LoginTests.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:58.684 BaseTest:133 - video path: videos\Android_Xiaomi11i\2022-07-11-16-13-33\LoginTests\invalidUserName.mp4
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:13:59.533 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:00.418 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:02.297 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:03.514 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:05.111 BaseTest:356 - product page title is - PRODUCTS
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:09.791 ProductTests:51 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:10.818 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:12.502 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:13.597 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:14.816 BaseTest:324 - press SLB tile link
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:16.249 BaseTest:356 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:16.442 BaseTest:356 - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:16.572 BaseTest:324 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:18.445 BaseTest:324 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:24.857 ProductTests:51 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:25.664 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:27.441 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:28.074 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:29.622 BaseTest:356 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:30.073 BaseTest:356 - price is - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:30.197 BaseTest:324 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:14:32.071 BaseTest:324 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:20:47.187 BaseTest:227 - log path: logs\Android_Xiaomi11i
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:20:47.210 BaseTest:234 - load config.properties
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:20:47.211 BaseTest:239 - load strings/strings.xml
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:20:47.220 BaseTest:263 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:20:56.728 BaseTest:285 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, deviceName=Xiaomi11i, systemPort=10000, udid=gmaybemv9xaaeqpz}, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceModel=21091116I, deviceName=gmaybemv9xaaeqpz, deviceScreenDensity=352, deviceScreenSize=1080x2400, deviceUDID=gmaybemv9xaaeqpz, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.2, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=80, systemPort=10000, takesScreenshot=true, udid=gmaybemv9xaaeqpz, viewportRect={left=0, top=80, width=1080, height=2205}, warnings={}, webStorageEnabled=false}
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:20:59.275 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:00.328 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:02.080 BaseTest:336 - password is invalidpassword
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:02.689 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:03.748 BaseTest:356 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:05.952 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:06.769 BaseTest:336 - login with invalidusername
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:08.667 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:09.887 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:10.279 BaseTest:356 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:12.658 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:13.473 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:15.332 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:16.539 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:18.109 BaseTest:356 - product page title is - PRODUCTS
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:23.064 ProductTests:51 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:24.075 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:25.749 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:26.846 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:28.065 BaseTest:324 - press SLB tile link
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:29.578 BaseTest:356 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:29.737 BaseTest:356 - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:29.888 BaseTest:324 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:31.902 BaseTest:324 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:37.589 ProductTests:51 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:38.371 BaseTest:336 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:40.173 BaseTest:336 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:40.804 BaseTest:324 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:42.330 BaseTest:356 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:42.593 BaseTest:356 - price is - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:42.812 BaseTest:324 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 16:21:44.670 BaseTest:324 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:20.905 BaseTest:221 - log path: logs\Android_Xiaomi11i
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:20.922 BaseTest:228 - load config.properties
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:20.922 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:20.930 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:31.458 BaseTest:281 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, deviceName=Xiaomi11i, systemPort=10000, udid=gmaybemv9xaaeqpz}, deviceApiLevel=30, deviceManufacturer=Xiaomi, deviceModel=21091116I, deviceName=gmaybemv9xaaeqpz, deviceScreenDensity=352, deviceScreenSize=1080x2400, deviceUDID=gmaybemv9xaaeqpz, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.2, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=80, systemPort=10000, takesScreenshot=true, udid=gmaybemv9xaaeqpz, viewportRect={left=0, top=80, width=1080, height=2205}, warnings={}, webStorageEnabled=false}
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:33.518 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:34.635 BaseTest:333 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:35.885 BaseTest:333 - password is invalidpassword
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:36.479 BaseTest:321 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:37.513 BaseTest:353 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:38.583 BaseTest:132 - video path: videos\Android_Xiaomi11i\2022-07-11-22-22-20\LoginTests\invalidPassword.mp4
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:39.240 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:40.076 BaseTest:333 - login with invalidusername
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:41.997 BaseTest:333 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:43.208 BaseTest:321 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:43.505 BaseTest:353 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:44.934 BaseTest:132 - video path: videos\Android_Xiaomi11i\2022-07-11-22-22-20\LoginTests\invalidUserName.mp4
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:45.729 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:46.537 BaseTest:333 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:47.935 BaseTest:333 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:49.080 BaseTest:321 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:50.616 BaseTest:353 - product page title is - PRODUCTS
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:53.126 BaseTest:132 - video path: videos\Android_Xiaomi11i\2022-07-11-22-22-20\LoginTests\successfulLogin.mp4
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:55.151 ProductTests:51 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:56.078 BaseTest:333 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:57.965 BaseTest:333 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:58.555 BaseTest:321 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:22:59.767 BaseTest:321 - press SLB tile link
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:01.134 BaseTest:353 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:01.308 BaseTest:353 - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:01.456 BaseTest:321 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:03.361 BaseTest:321 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:07.344 BaseTest:132 - video path: videos\Android_Xiaomi11i\2022-07-11-22-22-20\ProductTests\validateProductOnProductDetailsPage.mp4
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:08.044 ProductTests:51 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:08.789 BaseTest:333 - login with standard_user
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:10.531 BaseTest:333 - password is secret_sauce
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:11.695 BaseTest:321 - press login button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:13.094 BaseTest:353 - title is - Sauce Labs Backpack
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:13.321 BaseTest:353 - price is - $29.99
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:13.439 BaseTest:321 - press Settings button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:15.331 BaseTest:321 - press Logout button
+[logsAndroid_Xiaomi11i INFO ] 2022-07-11 22:23:19.046 BaseTest:132 - video path: videos\Android_Xiaomi11i\2022-07-11-22-22-20\ProductTests\validateProductOnProductsPage.mp4

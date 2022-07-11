@@ -1,0 +1,45 @@
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:37:59.824 BaseTest:221 - log path: logs\iOS_iPhone11
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:37:59.829 BaseTest:228 - load config.properties
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:37:59.830 BaseTest:233 - load strings/strings.xml
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:37:59.833 BaseTest:269 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\SwagLabsMobileApp.app
+[logsiOS_iPhone11 FATAL] 2022-07-11 21:38:01.646 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: '321266E3-44E0-4DAF-A81E-F15FDCB4A62C'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: IOSDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: '321266E3-44E0-4DAF-A81E-F15FDCB4A62C'
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: IOSDriver
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:38:52.043 BaseTest:221 - log path: logs\iOS_iPhone11
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:38:52.047 BaseTest:228 - load config.properties
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:38:52.048 BaseTest:233 - load strings/strings.xml
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:38:52.052 BaseTest:269 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\SwagLabsMobileApp.app
+[logsiOS_iPhone11 FATAL] 2022-07-11 21:38:52.509 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: '321266E3-44E0-4DAF-A81E-F15FDCB4A62C'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: IOSDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: '321266E3-44E0-4DAF-A81E-F15FDCB4A62C'
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: IOSDriver
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:39:26.888 BaseTest:221 - log path: logs\iOS_iPhone11
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:39:26.896 BaseTest:228 - load config.properties
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:39:26.900 BaseTest:233 - load strings/strings.xml
+[logsiOS_iPhone11 INFO ] 2022-07-11 21:39:26.908 BaseTest:269 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\SwagLabsMobileApp.app
+[logsiOS_iPhone11 FATAL] 2022-07-11 21:39:27.406 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: '321266E3-44E0-4DAF-A81E-F15FDCB4A62C'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: IOSDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: '321266E3-44E0-4DAF-A81E-F15FDCB4A62C'
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: IOSDriver

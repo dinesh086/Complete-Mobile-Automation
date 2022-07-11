@@ -1,0 +1,370 @@
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:37:46.992 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:37:46.996 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:37:46.998 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:37:47.005 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 21:37:57.050 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:38:43.139 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:38:43.145 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:38:43.147 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:38:43.154 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 21:38:49.272 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: 
+Exception occurred while executing 'install':
+android.os.ParcelableException: java.io.IOException: Requested internal only, but not enough space
+	at android.util.ExceptionUtils.wrap(ExceptionUtils.java:34)
+	at com.android.server.pm.PackageInstallerService.createSession(PackageInstallerService.java:595)
+	at com.android.server.pm.PackageManagerShellCommand.doCreateSession(PackageManagerShellCommand.java:3416)
+	at com.android.server.pm.PackageManagerShellCommand.doRunInstall(PackageManagerShellCommand.java:1
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: 
+Exception occurred while executing 'install':
+android.os.ParcelableException: java.io.IOException: Requested internal only, but not enough space
+	at android.util.ExceptionUtils.wrap(ExceptionUtils.java:34)
+	at com.android.server.pm.PackageInstallerService.createSession(PackageInstallerService.java:595)
+	at com.android.server.pm.PackageManagerShellCommand.doCreateSession(PackageManagerShellCommand.java:3416)
+	at com.android.server.pm.PackageManagerShellCommand.doRunInstall(PackageManagerShellCommand.java:1
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:44:48.974 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:44:48.999 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:44:49.003 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 21:44:49.022 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 21:44:56.323 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:02:41.035 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:02:41.041 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:02:41.043 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:02:41.052 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 22:02:56.959 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:08:20.247 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:08:20.261 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:08:20.264 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:08:20.283 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 22:08:22.537 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:24:46.141 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:24:46.147 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:24:46.151 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:24:46.161 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 22:24:48.321 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:26:18.062 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:26:18.069 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:26:18.071 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:26:18.082 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:43:28.908 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:43:28.919 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:43:28.921 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:43:28.935 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 22:43:30.569 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Avd 'Pixel_5' is not available. Please select your avd name from one of these: 'Pixel_3'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Avd 'Pixel_5' is not available. Please select your avd name from one of these: 'Pixel_3'
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:59:53.632 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:59:53.648 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:59:53.652 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 22:59:53.668 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 23:00:03.892 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:01:07.247 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:01:07.252 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:01:07.254 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:01:07.261 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 23:01:12.306 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\Users\\ASUS\\eclipse-workspace\\AllInOneProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' exited with code 1'; Command output: adb: failed to install C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:06:40.179 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:06:40.186 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:06:40.188 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:06:40.196 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 23:06:56.192 BaseTest:283 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:13:55.453 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:13:55.458 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:13:55.460 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:13:55.470 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:10.358 BaseTest:281 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5, avdLaunchTimeout=120000, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5, avdLaunchTimeout=120000, deviceName=Pixel_5, systemPort=10000, udid=emulator-5554}, deviceApiLevel=31, deviceManufacturer=Google, deviceModel=sdk_gphone64_x86_64, deviceName=emulator-5554, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=12, statBarHeight=145, systemPort=10000, takesScreenshot=true, udid=emulator-5554, viewportRect={left=0, top=145, width=1080, height=1927}, warnings={}, webStorageEnabled=false}
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:13.511 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:14.853 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:16.514 BaseTest:333 - password is invalidpassword
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:17.629 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:18.648 BaseTest:353 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:21.319 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-13-55\LoginTests\invalidPassword.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:21.836 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:22.584 BaseTest:333 - login with invalidusername
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:24.434 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:25.558 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:25.933 BaseTest:353 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:26.881 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-13-55\LoginTests\invalidUserName.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:27.451 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:28.210 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:29.887 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:30.989 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:32.407 BaseTest:353 - product page title is - PRODUCTS
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:33.369 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-13-55\LoginTests\successfulLogin.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:36.214 ProductTests:51 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:37.495 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:39.215 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:40.318 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:41.562 BaseTest:321 - press SLB tile link
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:42.809 BaseTest:353 - title is - Sauce Labs Backpack
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:46.634 BaseTest:353 - $29.99
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:46.708 BaseTest:321 - press Settings button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:48.484 BaseTest:321 - press Logout button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:50.386 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-13-55\ProductTests\validateProductOnProductDetailsPage.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:50.942 ProductTests:51 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:51.578 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:53.252 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:54.360 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:55.662 BaseTest:353 - title is - Sauce Labs Backpack
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:55.843 BaseTest:353 - price is - $29.99
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:55.932 BaseTest:321 - press Settings button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:57.735 BaseTest:321 - press Logout button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:14:58.977 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-13-55\ProductTests\validateProductOnProductsPage.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:15:52.410 BaseTest:221 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:15:52.415 BaseTest:228 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:15:52.417 BaseTest:233 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:15:52.422 BaseTest:258 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:00.830 BaseTest:281 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5, avdLaunchTimeout=120000, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5, avdLaunchTimeout=120000, deviceName=Pixel_5, systemPort=10000, udid=emulator-5554}, deviceApiLevel=31, deviceManufacturer=Google, deviceModel=sdk_gphone64_x86_64, deviceName=emulator-5554, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=12, statBarHeight=145, systemPort=10000, takesScreenshot=true, udid=emulator-5554, viewportRect={left=0, top=145, width=1080, height=1927}, warnings={}, webStorageEnabled=false}
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:03.100 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:04.267 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:05.502 BaseTest:333 - password is invalidpassword
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:06.098 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:06.961 BaseTest:353 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:07.952 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-15-52\LoginTests\invalidPassword.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:08.495 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:09.300 BaseTest:333 - login with invalidusername
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:10.996 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:12.115 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:12.426 BaseTest:353 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:13.367 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-15-52\LoginTests\invalidUserName.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:13.966 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:14.745 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:15.962 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:17.065 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:18.492 BaseTest:353 - product page title is - PRODUCTS
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:19.498 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-15-52\LoginTests\successfulLogin.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:21.731 ProductTests:51 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:22.976 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:24.650 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:25.752 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:27.004 BaseTest:321 - press SLB tile link
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:28.227 BaseTest:353 - title is - Sauce Labs Backpack
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:32.143 BaseTest:353 - $29.99
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:32.224 BaseTest:321 - press Settings button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:34.018 BaseTest:321 - press Logout button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:35.822 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-15-52\ProductTests\validateProductOnProductDetailsPage.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:36.388 ProductTests:51 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:37.069 BaseTest:333 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:38.255 BaseTest:333 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:39.357 BaseTest:321 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:40.758 BaseTest:353 - title is - Sauce Labs Backpack
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:40.973 BaseTest:353 - price is - $29.99
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:41.078 BaseTest:321 - press Settings button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:43.065 BaseTest:321 - press Logout button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:16:44.489 BaseTest:132 - video path: videos\Android_Pixel_5\2022-07-11-23-15-52\ProductTests\validateProductOnProductsPage.mp4
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:25:27.978 BaseTest:222 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:25:27.984 BaseTest:229 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:25:27.985 BaseTest:234 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:25:27.995 BaseTest:259 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 FATAL] 2022-07-11 23:25:43.577 BaseTest:284 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+    at getResponseForW3CError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EOK2EVU3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: AndroidDriver
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:15.848 BaseTest:222 - log path: logs\Android_Pixel_5
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:15.853 BaseTest:229 - load config.properties
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:15.854 BaseTest:234 - load strings/strings.xml
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:15.860 BaseTest:259 - appUrl isC:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:29.154 BaseTest:282 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5, avdLaunchTimeout=120000, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\ASUS\eclipse-workspace\AllInOneProject\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5, avdLaunchTimeout=120000, deviceName=Pixel_5, systemPort=10000, udid=emulator-5554}, deviceApiLevel=31, deviceManufacturer=Google, deviceModel=sdk_gphone64_x86_64, deviceName=emulator-5554, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=12, statBarHeight=145, systemPort=10000, takesScreenshot=true, udid=emulator-5554, viewportRect={left=0, top=145, width=1080, height=1927}, warnings={}, webStorageEnabled=false}
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:32.142 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:33.730 BaseTest:334 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:35.084 BaseTest:334 - password is invalidpassword
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:37.115 BaseTest:322 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:39.627 BaseTest:354 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:45.294 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:46.044 BaseTest:334 - login with invalidusername
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:47.341 BaseTest:334 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:48.456 BaseTest:322 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:48.776 BaseTest:354 - error text is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:50.332 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:52.132 BaseTest:334 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:53.851 BaseTest:334 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:54.946 BaseTest:322 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:26:56.376 BaseTest:354 - product page title is - PRODUCTS
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:00.240 ProductTests:51 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:02.130 BaseTest:334 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:03.341 BaseTest:334 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:03.929 BaseTest:322 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:05.221 BaseTest:322 - press SLB tile link
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:06.422 BaseTest:354 - title is - Sauce Labs Backpack
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:10.466 BaseTest:354 - $29.99
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:10.538 BaseTest:322 - press Settings button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:12.285 BaseTest:322 - press Logout button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:14.684 ProductTests:51 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:15.293 BaseTest:334 - login with standard_user
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:16.978 BaseTest:334 - password is secret_sauce
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:17.577 BaseTest:322 - press login button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:18.854 BaseTest:354 - title is - Sauce Labs Backpack
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:18.998 BaseTest:354 - price is - $29.99
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:19.075 BaseTest:322 - press Settings button
+[logsAndroid_Pixel_5 INFO ] 2022-07-11 23:27:20.801 BaseTest:322 - press Logout button
